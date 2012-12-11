@@ -4,7 +4,7 @@ require File.expand_path('../lib/texthelpers/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Christian Meichtry"]
   gem.email         = ["chris@atelier-agile.ch"]
-  gem.description   = %q{Helpers for I18n'zed Rails sites}
+  gem.description   = %q{Helpers for I18n'zed Rails apps}
   gem.summary       = %q{Simple helper methods to display text and titles with **_locale** database field names.}
   gem.homepage      = ""
   

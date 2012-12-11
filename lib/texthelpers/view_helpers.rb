@@ -1,5 +1,9 @@
 module Texthelpers
   module ViewHelpers
+    def markdown(text)
+      raw BlueCloth.new(raw text).to_html
+    end
+    
     def title_for(page, options = {})
       options[:field] ||= "title"
       begin
